@@ -1,0 +1,20 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --lions-blue: #0076B6;
+  --lions-blue-dark: #005e8e;
+  --lions-blue-light: #E6F4FB;
+  --lions-silver: #B0B7BC;
+  --lions-silver-light: #F0F2F3;
+  --lions-silver-dark: #6B7278;
+  --accent-gold: #FFB81C;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  background: var(--lions-silver-light);
+  color: #111;
+}
+
+button { cursor: pointer; font-family: inherit; }
+input, select { font-family: inherit; font-size: 16px; }
